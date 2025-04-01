@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Cupid Love';
+    src: url('fonts/cute_love-webfont.woff2') format('woff2'),
+         url('fonts/cute_love-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Love Letters';
+    src: url('assets/fonts/edwardianscriptitc.woff2') format('woff2'),
+         url('assets/fonts/edwardianscriptitc.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    background: #FCF4DF;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header2 {
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    font-family: 'Love Letters', sans-serif;
+    color: hwb(327 46% 7%);
+    font-weight: normal !important;
+    font-style: normal !important;
+    -webkit-text-stroke: 0.8px black;
+    background-color: none;
+}
+
+.header3 {
+    margin-top: 10px;
+    font-family: 'Cupid Love', sans-serif;
+    color: rgb(88, 83, 83);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    justify-content: center;
+    font-family: 'Cupid Love', sans-serif;
+}
+
+.social-name {
+    position: relative;
+    color: rgb(88, 83, 83);
+    
+}
+
+.social-name1 {
+    margin-top: -24px;
+    color: rgb(88, 83, 83);
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    margin-top: -40px;
+
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+}
+
+.head2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
